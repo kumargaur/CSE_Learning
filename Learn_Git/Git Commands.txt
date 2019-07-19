@@ -1,0 +1,60 @@
+********************************************* Git Configuration ***************************************
+
+-> git config --global user.name "ibagga"
+   git config --global user.email "ishu1070@gmail.com"
+-> Check configuration------------------------------- : git config --list
+
+********************************************* Clone Repository *****************************************
+
+-> Command Used to Clone--------------------------- : git clone https://github.com/ibagga/Trial.git
+-> Command to use the origin ---------------------- : git remote -v
+
+********************************************* Git Initialization ***************************************
+
+-> Convert working Tree in to local repository----- : git init 
+-> Connect Local repo to remote repo -------------- : git remote add origin "https://github.com/ibagga/STE.git"
+
+************************************* Git Branch ********************************************************
+
+-> Create Branch------------------------------------- : git branch IshuBagga
+-> Move to another Branch---------------------------- : git Checkout IshuBagga
+-> Check a Local Branch------------------------------ : git branch
+-> Check Remote Branch------------------------------- : git branch -r
+-> Check all Branch---------------------------------- : git branch -a
+-> Delete Branch------------------------------------- : git branch -D branchname
+-> In case still seeing a branch at fetch but actually got deleted from remote : 
+git fetch -p
+ 
+****************************************** Git Add\Push **************************************************
+
+-> To start tracking afile in repository ------------- : git add filename or git add -A 
+-> Commit -------------------------------------------- : git commit -a -m "Comment"
+-> Push code to remote ------------------------------- : git push origin firstbranch 
+
+
+****************************************** Git Fetch and Git Pull ***************************************** 
+
+-> Get remote changes to local repository------------ : git fetch origin master\Branchname
+-> See the downoaded branch at local----------------- : git branch -a
+-> Pull remote changes to local repository----------- : git pull origin master
+
+
+
+***************************************** Git Viewing and Logging ****************************************
+
+-> git log
+-> git status
+-> git show
+
+
+***************************************** Others ************************************************************
+
+Connection:
+ssh-keygen
+ and store it in a setting of github
+ssh -T git@github.com
+
+
+
+
+
